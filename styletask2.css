@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: Verdana, sans-serif;
+}
+
+header,
+footer {
+  background: lightgray;
+  text-align: center;
+  padding: 12px;
+  font-size: 1.4rem;
+  font-family: Georgia, serif;
+}
+
+nav {
+  background: lightblue;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+form input[type="submit"] {
+  background: silver;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}

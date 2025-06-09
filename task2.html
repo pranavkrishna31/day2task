@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HX FITNESS STUDIO</title>
+  <link rel="stylesheet" href="styletask2.css" />
+</head>
+<body>
+
+  <header>HX FITNESS STUDIO</header>
+
+  <nav>
+    <a href="#coaching">1-on-1 Coaching</a>
+    <a href="#diet">Diet Plan</a>
+    <a href="#workout">Workout Plans</a>
+    <a href="#supplements">Supplement Advice</a>
+  </nav>
+
+  <main>
+
+    <section id="coaching">
+      <h2>1-on-1 Coaching Request</h2>
+      <form>
+        <label for="coachName">Full Name:</label>
+        <input type="text" id="coachName" name="coachName" required>
+
+        <label for="coachEmail">Email:</label>
+        <input type="email" id="coachEmail" name="coachEmail" required>
+
+        <label for="goals">Your Fitness Goals:</label>
+        <textarea id="goals" name="goals" rows="4" required></textarea>
+
+        <input type="submit" value="Submit Request">
+      </form>
+    </section>
+
+    <section id="diet">
+      <h2>Request a Diet Plan</h2>
+      <form>
+        <label for="dietName">Name:</label>
+        <input type="text" id="dietName" name="dietName" required>
+
+        <label for="dietEmail">Email:</label>
+        <input type="email" id="dietEmail" name="dietEmail" required>
+
+        <label for="dietType">Type of Diet:</label>
+        <select id="dietType" name="dietType" required>
+          <option value="">--Select--</option>
+          <option value="fat-loss">Fat Loss</option>
+          <option value="muscle-gain">Muscle Gain</option>
+          <option value="maintenance">Maintenance</option>
+        </select>
+
+        <input type="submit" value="Get Diet Plan">
+      </form>
+    </section>
+
+    <section id="workout">
+      <h2>Workout Plans</h2>
+      <p>We offer custom workout plans for strength, hypertrophy, fat loss, and general fitness. Submit a coaching request or contact us for more details.</p>
+    </section>
+
+    <section id="supplements">
+      <h2>Supplement Advice</h2>
+      <p>Need help choosing supplements? We provide simple guidance on protein, vitamins, and performance supplements based on your goals.</p>
+    </section>
+
+  </main>
+
+  <footer>© 2025 HX Fitness Studio</footer>
+
+</body>
+</html>
